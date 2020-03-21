@@ -1,3 +1,7 @@
 module.exports = (app) =>{
-  app.use('/', require('./foo.js'));
+  //API routes
+  app.use('/api/foo', require('./api/foo'));
+
+  //Client routes
+  app.use('/', require('./client/foo.js'));
 }
