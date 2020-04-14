@@ -1,10 +1,11 @@
-INDEX
+### Description
 ---
-express skeleton snippet
+Express skeleton snippet
 
-
-SPEC 
+### SPEC 
 ---
-- no view engine
-- no database
-- only express based API structure
+- database : MySQL
+- view engine : NONE
+- ORM : sequelize
+- logger : morgan
+- tester : NONE 
