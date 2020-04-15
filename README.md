@@ -1,8 +1,8 @@
-### Description
+### Desc.
 ---
 Express skeleton snippet
 
-### SPEC 
+### Spec.
 ---
 - database : MySQL
 - view engine : NONE
@@ -12,6 +12,6 @@ Express skeleton snippet
 
 ### Caution
 ---
-Edit **/config/config.json**
-Add **/config** in **.gitignore** in practical use
+- Edit **/config/config.json**
+- Add **/config** in **.gitignore** in practical use
 
