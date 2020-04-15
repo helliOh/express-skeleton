@@ -9,3 +9,9 @@ Express skeleton snippet
 - ORM : sequelize
 - logger : morgan
 - tester : NONE 
+
+### Caution
+---
+Edit **/config/config.json**
+Add **/config** in **.gitignore** in practical use
+

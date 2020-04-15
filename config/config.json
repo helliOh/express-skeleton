@@ -1,0 +1,32 @@
+{
+  "development": {
+    "username": "root",
+    "password": "PASSWORD",
+    "database": "DATABASE",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+09:00",
+    "operatorsAliases": 0,
+    "logging": true
+  },
+  "test": {
+    "username": "root",
+    "password": "PASSWORD",
+    "database": "DATABASE",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+09:00",
+    "operatorsAliases": 0,
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "PASSWORD",
+    "database": "DATABASE",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "timezone": "+09:00",
+    "operatorsAliases": 0,
+    "logging": false
+  }
+}
