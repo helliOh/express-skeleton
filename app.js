@@ -6,7 +6,6 @@ const logger = require('morgan');
 
 const router = require('./routes');
 
-const port = 4000;
 const app = express();
 
 // app.use(logger('dev'));
@@ -18,9 +17,5 @@ app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 router(app);
-
-app.listen(port, () =>{
-  console.log(`Now server listens port(${port})!`);
-});
 
 module.exports = app;
